@@ -1,9 +1,9 @@
 public class Solution {
     public int[] twoSum(int[] numbers, int target) {
         Map <Integer,Integer> map = new HashMap<Integer, Integer>();
-	    int[] res = new int[2];
+	int[] res = new int[2];
 		
-	    //put all the element into map as key 
+	//put all the element into map as key 
     	for (int i = 0; i < numbers.length; i++)
     	    map.put(numbers[i],i);
     	for (int i = 0; i < numbers.length; i++){
@@ -14,6 +14,6 @@ public class Solution {
                 return res;
             }
     	}
-		return res;
+    	return res;
     }
 }
